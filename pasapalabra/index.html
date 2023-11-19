@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Pasapalabra</title>
+</head>
+<body>
+  <div id="game-container">
+    <div id="question-container">
+      <p id="question"></p>
+    </div>
+    <div id="answer-container">
+      <input type="text" id="answer" placeholder="Escribe tu respuesta">
+      <button onclick="checkAnswer()">Responder</button>
+      <button onclick="pass()">Pasar</button>
+    </div>
+    <div id="result-container">
+      <p id="result"></p>
+    </div>
+    <div id="rosco-container">
+      <ul id="rosco">
+        <!-- Aquí se generará dinámicamente el rosco -->
+      </ul>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
